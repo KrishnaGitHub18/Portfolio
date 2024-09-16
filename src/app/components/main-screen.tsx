@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import img from './profileimg.png';
+import img from '../../../public/Images/profileimg.png';
 import Image from 'next/image';
 
 function mainScreen() {

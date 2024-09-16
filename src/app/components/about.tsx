@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './about-image.png';
+import img from '../../../public/Images/about-image.png';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
@@ -7,21 +7,21 @@ import { faCss3 } from '@fortawesome/free-brands-svg-icons';
 import { faJs } from '@fortawesome/free-brands-svg-icons';
 
 // IMAGES IMPORT
-import CPP from './Images/C++.png'
-import HTML from './Images/HTML.png';
-import CSS from './Images/CSS.png';
-import Javascript from './Images/Javacript.png';
-import Tailwind from './Images/Tailwind.png';
-import Typescript from './Images/Typescript.png';
-import NextJS from './Images/next-js.jpeg';
-import ReactJS from './Images/react.png';
-import Redux from './Images/Redux.png';
-import NodeJS from './Images/NodeJS.png';
-import ExpressJS from './Images/ExpressJS.png';
-import MongoDB from './Images/MongoDB.png';
-import MySQL from './Images/MySQL.png';
-import Git from './Images/Git.png';
-import Postman from './Images/Postman.svg';
+import CPP from '../../../public/Images/C++.png';
+import HTML from '../../../public/Images/HTML.png';
+import CSS from '../../../public/Images/CSS.png';
+import Javascript from '../../../public/Images/Javacript.png';
+import Tailwind from '../../../public/Images/Tailwind.png';
+import Typescript from '../../../public/Images/Typescript.png';
+import NextJS from '../../../public/Images/next-js.jpeg';
+import ReactJS from '../../../public/Images/react.png';
+import Redux from '../../../public/Images/Redux.png';
+import NodeJS from '../../../public/Images/NodeJS.png';
+import ExpressJS from '../../../public/Images/ExpressJS.png';
+import MongoDB from '../../../public/Images/MongoDB.png';
+import MySQL from '../../../public/Images/MySQL.png';
+import Git from '../../../public/Images/Git.png';
+import Postman from '../../../public/Images/Postman.svg';
 
 const about = () => {
   return (

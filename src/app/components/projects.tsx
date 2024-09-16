@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import foodway from './Images/foodway.png';
-import quizapp from './Images/Group 2.png';
+import foodway from '../../../public/Images/foodway.png';
+import quizapp from '../../../public/Images/Group 2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEye } from '@fortawesome/free-solid-svg-icons';

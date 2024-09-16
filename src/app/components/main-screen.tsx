@@ -20,7 +20,7 @@ function mainScreen() {
 
 
                 {/* CONTENT */}
-                <div className='h-[85vh] md:w-[60vw] w-[97vw] pl-4 justify-center '>
+                <div className='h-[55vh] sm:h-[85vh] md:w-[60vw] w-[97vw] pl-4 justify-center '>
                     <div className='mt-[15%] flex flex-col justify-center md:justify-start items-center md:items-start'>
                         <div className='lg:text-8xl md:text-7xl text-5xl  m-4 font-black  bg-gradient-to-r from-[#3d36b8] via-[#096f79] to-[#00d4ff] bg-clip-text text-transparent'>Hello, I'm</div>
                         <div className='flex lg:text-6xl md:text-5xl sm:text-2xl text-xl m-4 font-black'>

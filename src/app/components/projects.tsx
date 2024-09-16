@@ -45,7 +45,7 @@ const projects = () => {
                     </div>
 
                     <div className='mt-[10px] flex justify-center items-center text-md sm:text-2xl'>Quiz App</div>
-                    <div className='flex justify-center items-center text-sm sm:text-md'>Flashcard learning app with flip functionalitye</div>
+                    <div className='flex justify-center items-center text-sm sm:text-md'>Flashcard learning app</div>
                 </div>
 
             </div>

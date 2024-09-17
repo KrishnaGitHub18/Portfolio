@@ -8,7 +8,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
-const connect = () => {
+const Connect = () => {
 
   const [copyMailId, setCopyMailId] = useState(false);
   const [copyPhoneNumber, setCopyPhoneNumber] = useState(false);
@@ -72,4 +72,4 @@ const connect = () => {
   )
 }
 
-export default connect
+export default Connect

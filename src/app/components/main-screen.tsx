@@ -36,14 +36,15 @@ function mainScreen() {
                         </div>
                     </div>
 
-                    <div className='flex mt-[12%] justify-center md:justify-start items-center md:items-star'>
-                        <div className='p-[15px] mx-[10px] border-4 rounded-3xl border-sky-500 cursor-pointer text-slate-400 hover:text-white'>
+                    <div className='flex mt-[12%] justify-center md:justify-start items-center md:items-start'>
+                        <div className='px-6 py-3 mx-2 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold text-lg cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg'>
                             Contact
                         </div>
                         <a
-                            className='p-[15px] mx-[10px] border-4 rounded-3xl border-sky-500 cursor-pointer text-slate-400 hover:text-white'
+                            className='px-6 py-3 mx-2 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold text-lg cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg'
                             href='https://drive.google.com/uc?export=download&id=18U0YC0wbDzvUwBCndUe2dcTIoTpe5as0'
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Download CV
                         </a>

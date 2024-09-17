@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page = () => {
     return (
-        <nav className='fixed w-[96vw] mx-4 bg-zinc-900 bg-opacity-100'>
+        <nav className='fixed w-[96vw] mx-4 bg-zinc-900 bg-opacity-100 z-50 top-0'>
             <div className='p-4 flex md:justify-between mb-2 mt-2 justify-center items-center'>
                 <div className='text-4xl font-mono font-semibold'>PORFOLIO</div>
                 <div className='hidden md:flex'>

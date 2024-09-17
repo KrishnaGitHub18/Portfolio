@@ -35,49 +35,49 @@ const about = () => {
           <div className='flex flex-col md:text-left text-center'>I am a full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with JavaScript, Typescript, React, Node.js, Express, mySQL, MongoDB, NextJS, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.</div>
           <div className='mt-[50px] text-xl'>Languages and Tools:</div>
           <div className='flex flex-wrap mt-[15px]'>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
-              <Image src={CPP} alt="Profile" className='object-cover' />
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
+              <Image src={CPP} alt="Profile" className='object-cover w-full h-full' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={HTML} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={CSS} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={Javascript} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={Tailwind} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={Typescript} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={NextJS} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={ReactJS} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={Redux} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={NodeJS} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={ExpressJS} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={MongoDB} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={MySQL} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={Git} alt="Profile" className='object-cover' />
             </div>
-            <div className='sm:h-[60px] sm:w-[60px] h-[40px] w-[40px] m-1 overflow-hidden'>
+            <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>
               <Image src={Postman} alt="Profile" className='object-cover' />
             </div>
           </div>

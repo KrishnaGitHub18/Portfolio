@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <main className='bg-zinc-900'>
       <Header scrollToAbout={scrollToAbout} scrollToProjects={scrollToProjects} scrollToContact={scrollToContact}/>
-      <Main1 />
+      <Main1 scrollToContact={scrollToContact}/>
       <About aboutRef={aboutRef}/>
       <Projects ProjectsRef={ProjectsRef}/>
       <Connect ContactRef={ContactRef}/>

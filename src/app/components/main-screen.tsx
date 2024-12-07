@@ -5,7 +5,11 @@ import Typewriter from 'typewriter-effect';
 import img from '../../../public/Images/profileimg.png';
 import Image from 'next/image';
 
-function mainScreen() {
+interface ScrollButtonProps {
+    scrollToContact: () => void;
+}
+
+const mainScreen : React.FC<ScrollButtonProps> = ({ scrollToContact }) => {
     return (
         <>
             <div className='flex flex-col md:flex-row m-[5px] pt-[100px]'>
@@ -37,12 +41,12 @@ function mainScreen() {
                     </div>
 
                     <div className='flex mt-[12%] justify-center md:justify-start items-center md:items-start'>
-                        <div className='px-6 py-3 mx-2 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold text-lg cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg'>
+                        <div className='px-6 py-3 mx-2 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold text-lg cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg' onClick={scrollToContact}>
                             Contact
                         </div>
                         <a
                             className='px-6 py-3 mx-2 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold text-lg cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg'
-                            href='https://drive.google.com/uc?export=download&id=18U0YC0wbDzvUwBCndUe2dcTIoTpe5as0'
+                            href='https://drive.google.com/uc?export=download&id=1HBQrlxNpBodB5j8JZyHjA5UPRtB1ZHr6'
                             target="_blank"
                             rel="noopener noreferrer"
                         >

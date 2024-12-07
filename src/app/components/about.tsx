@@ -1,4 +1,6 @@
-import React from 'react';
+"use client";
+
+import React, { useRef } from 'react';
 import img from '../../../public/Images/about-image.png';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -23,9 +25,14 @@ import MySQL from '../../../public/Images/MySQL.png';
 import Git from '../../../public/Images/Git.png';
 import Postman from '../../../public/Images/Postman.svg';
 
-const about = () => {
+interface PageSectionProps {
+  aboutRef: React.RefObject<HTMLDivElement>;
+}
+
+const about: React.FC<PageSectionProps> = ({ aboutRef })=> {
+
   return (
-    <div className='flex justify-center md:mb-[220px] lg:mb-[80px] xl:mb-0 sm:flex-col'>
+    <div className='flex justify-center md:mb-[220px] lg:mb-[80px] xl:mb-0 sm:flex-col' ref={aboutRef}>
       <div className='h-[80vh] w-[95vw] flex flex-col sm:flex-row justify-around items-start md:items-center'>
         <div className='h-[70%] w-[28%] overflow-hidden md:block hidden'>
           <Image src={img} alt="Profile" className='object-cover' />

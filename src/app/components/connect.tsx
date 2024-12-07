@@ -8,7 +8,11 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
-const Connect = () => {
+interface PageSectionProps {
+  ContactRef: React.RefObject<HTMLDivElement>;
+}
+
+const Connect: React.FC<PageSectionProps> = ({ ContactRef })=> {
 
   const [copyMailId, setCopyMailId] = useState(false);
   const [copyPhoneNumber, setCopyPhoneNumber] = useState(false);
@@ -34,7 +38,7 @@ const Connect = () => {
   
 
   return (
-    <div className='flex justify-center mb-[100px] sm:mb-0'>
+    <div className='flex justify-center mb-[100px] sm:mb-0' ref={ContactRef}>
       <div className='h-[60vh] w-[90%] flex flex-col justify-center items-center'>
         <div className='text-4xl mb-8'>Lets Connect</div>
         <div className='text-sm text-slate-400 md:text-left text-center'>As a passionate and dedicated professional, I'm always eager to take on new challenges and contribute to exciting projects. Whether you're looking for a skilled developer, a creative thinker, or a collaborative team member, I'm ready to bring my expertise to your next venture. My inbox is always open, and I'm enthusiastic about connecting with like-minded individuals and companies. Let's explore how we can work together to create something extraordinary!</div>

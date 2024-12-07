@@ -9,9 +9,14 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import Link from "next/link";
 
-const projects = () => {
+interface PageSectionProps {
+    ProjectsRef: React.RefObject<HTMLDivElement>;
+}
+
+
+const projects: React.FC<PageSectionProps> = ({ ProjectsRef })=> {
     return (
-        <div className='flex flex-col justify-center items-center pt-[100px] h-[100vh] w-[96vw] mx-4 mb-[120px] mt-[70px] sm:mb-0 sm:mt-0'>
+        <div className='flex flex-col justify-center items-center pt-[100px] h-[100vh] w-[96vw] mx-4 mb-[120px] mt-[70px] sm:mb-0 sm:mt-0' ref={ProjectsRef}>
 
             <div className='text-4xl font-semibold w-[90%] h-[10%] flex justify-center items-center'>My Projects</div>
 
@@ -47,7 +52,7 @@ const projects = () => {
                     <div
                         className="h-52 md:h-72 rounded-t-xl relative group"
                     >
-                        <Image src={quizapp} alt="Profile" className='object-cover w-full h-full rounded-2xl'/>
+                        <Image src={quizapp} alt="Profile" className='object-cover w-full h-full rounded-2xl' />
                         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
                             <Link
                                 href="https://github.com/KrishnaGitHub18/FlashCards-frontend-"

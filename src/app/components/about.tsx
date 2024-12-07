@@ -39,7 +39,7 @@ const about: React.FC<PageSectionProps> = ({ aboutRef })=> {
         </div>
         <div className='md:h-[70%] md:w-[49%] h-[95%] w-[95%] p-4 mt-0 flex flex-col md:items-start items-center'>
           <div className='mb-[30px] text-4xl font-semibold'>About Me</div>
-          <div className='flex flex-col md:text-left text-center'>I am a full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with JavaScript, Typescript, React, Node.js, Express, mySQL, MongoDB, NextJS, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.</div>
+          <div className='flex flex-col md:text-left text-center'>I am a full stack developer with a passion for creating interactive and responsive websites and applications. I have experience working with JavaScript, Typescript, React, React-Native, Redux, Node.js, Express, mySQL, MongoDB, NextJS, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.</div>
           <div className='mt-[50px] text-xl'>Languages and Tools:</div>
           <div className='flex flex-wrap justify-center sm:justify-start mt-[15px]'>
             <div className='relative h-[60px] w-[60px] m-1 overflow-hidden rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer'>

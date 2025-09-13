@@ -46,11 +46,11 @@ const mainScreen : React.FC<ScrollButtonProps> = ({ scrollToContact }) => {
                         </div>
                         <a
                             className='px-6 py-3 mx-2 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold text-lg cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg'
-                            href='https://drive.google.com/uc?export=download&id=1HBQrlxNpBodB5j8JZyHjA5UPRtB1ZHr6'
+                            href='https://drive.google.com/drive/folders/1UjYKGtl0CsEgiiY5kVE4ZLT_KO_uKq0s'
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Download CV
+                            Resume
                         </a>
                     </div>
                 </div>

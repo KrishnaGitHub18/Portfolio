@@ -54,19 +54,36 @@ const Connect: React.FC<PageSectionProps> = ({ ContactRef })=> {
         </div>
         <div className='mt-8 w-full flex justify-center items-center gap-[20px]'>
           <a href="https://github.com/KrishnaGitHub18" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faGithub}
               style={{ color: '#74C0FC' }}
               size="2x"
               className='transition-transform duration-300 hover:scale-125 hover:text-blue-300 hover:shadow-lg'
+            /> */}
+            <img 
+              src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" 
+              alt="" 
+              className='transition-transform duration-300 hover:scale-125 hover:text-blue-300 hover:shadow-lg h-10 color-blue'
             />
           </a>
           <a href="https://in.linkedin.com/in/krishna-deheriya-ba2393224" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faLinkedin}
               style={{ color: '#74C0FC' }}
               size="2x"
               className='transition-transform duration-300 hover:scale-125 hover:text-blue-300 hover:shadow-lg'
+            /> */}
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png" 
+              alt="" 
+              className='transition-transform duration-300 hover:scale-125 hover:text-blue-300 hover:shadow-lg h-10 color-blue'
+            />
+          </a>
+          <a href="https://codolio.com/profile/krishna1803" target="_blank" rel="noopener noreferrer">
+            <img 
+              src="https://codolio.com/codolio_assets/codolio.svg" 
+              alt="" 
+              className='transition-transform duration-300 hover:scale-125 hover:text-blue-300 hover:shadow-lg h-10 color-blue'
             />
           </a>
         </div>

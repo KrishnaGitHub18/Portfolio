@@ -30,7 +30,7 @@ const mainScreen : React.FC<ScrollButtonProps> = ({ scrollToContact }) => {
                         <div className='flex lg:text-6xl md:text-5xl sm:text-2xl text-xl m-4 font-black'>
                             <Typewriter
                                 options={{
-                                    strings: ["Full Stack Web Developer", "React Native Developer"],
+                                    strings: ["Full Stack Web Developer", "App Developer"],
                                     autoStart: true,
                                     loop: true,
                                     delay: 100,

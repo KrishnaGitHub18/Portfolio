@@ -1,53 +1,45 @@
-Krishna's Developer Portfolio
+# 🌐 Dev Portfolio
 
-Welcome to my personal developer portfolio! This project showcases my skills, projects, and achievements in a clean and responsive layout. Built with Next.js and styled using Tailwind CSS, it's optimized for both desktop and mobile views.
+Welcome to my **dev portfolio!**  
+This project highlights my **skills, projects, and achievements** through a clean and responsive design.  
+Built with **Next.js** and styled using **Tailwind CSS**, it’s optimized for both desktop and mobile devices.
 
-🚀 Live Demo
+---
 
-Explore the live version of my portfolio here:
-👉 https://portfolio-krishna-deheriya.vercel.app
+## 🚀 Hosted Link
 
-🛠️ Technologies Used
+**Live Demo:** [https://portfolio-krishna-deheriya.vercel.app](https://portfolio-krishna-deheriya.vercel.app)
 
-Frontend: Next.js
+---
 
-Styling: Tailwind CSS
+## 🛠️ Tech Stack
 
-Deployment: Vercel
+- **Frontend:** Next.js  
+- **Styling:** Tailwind CSS  
+- **Deployment:** Vercel  
 
-📁 Project Structure
-/public
-  └── assets/        # Images and assets
-/src
-  └── app/           # Main application components and pages
-.gitignore           # Git ignore rules
-.eslintrc.json       # ESLint configuration
-next.config.mjs      # Next.js configuration
-package.json         # Project metadata and dependencies
-postcss.config.mjs   # PostCSS configuration
-tailwind.config.ts   # Tailwind CSS configuration
-tsconfig.json        # TypeScript configuration
-README.md            # Project documentation
+---
 
-⚡ Getting Started
+## ⚡ Getting Started
 
-To run this project locally:
+To run this project locally, follow these steps:
 
-Clone the repository:
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/KrishnaGitHub18/Portfolio.git
 cd Portfolio
+```
+### 2. Install Dependencies
 
-
-Install dependencies:
-
+```bash
 npm install
+```
+### 3. Start the Development Server
 
-
-Start the development server:
-
+```bash
 npm run dev
+```
 
 
-Open your browser and navigate to http://localhost:3000
-.
+
